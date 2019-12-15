@@ -111,7 +111,7 @@ def error(Y_test,predict_results):
 
 if __name__ == '__main__':
     print ("------------- 1.load data ----------------")
-    X_data,Y_data = load_data("sine.txt") 
+    X_data,Y_data = load_data("H:/yef-learning/MachineLearning/GBDT/data/sine.txt") 
     X_train = X_data[0:150]
     Y_train = Y_data[0:150]
     X_test = X_data[150:200]
